@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="pr-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Footer</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    
+    <div class="container-fluid">
+        <footer id="footer" class="no-margin">
+            <div class="footer-top text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 footer-info">
+                            <h3>Coloque aqui o nome do seu site</h3>
+                            <p>Obrigado por nos visitar, nós da <span>Coloque aui o nome do seu site</span> estamos
+                                honrados com sua presença</p>
+<!-----------------------------------------Localização-------------------------------------------------------------->
+                            <div class="text-center localizacao">
+                                <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                                    data-target="#modalRegular">Localização</button>
+                            </div>
+                            <div class="modal fade" id="modalRegular" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body mb-0 p-0">
+                                            <div id="map-container-google-16" class="z-depth-1-half map-container-9"
+                                                style="height: 400px">
+                                                <iframe
+                                                    src=""
+                                                    frameborder="0" style="border:0" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer justify-content-center localizacao-mapa">
+                                            <button type="button" class="btn btn-outline-danger btn-md"
+                                                data-dismiss="modal">Fechar <i class="fas fa-times ml-1"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!---------------------------------------Localização-------------------------------------------------------------->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

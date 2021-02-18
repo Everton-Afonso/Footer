@@ -1,3 +1,3 @@
 # Exemplo de Footer
 
-Basta fazer algumas alterções nos testo para utilizar em seu projeto
+Basta fazer algumas alterações nos texto para utilizar em seu projeto
